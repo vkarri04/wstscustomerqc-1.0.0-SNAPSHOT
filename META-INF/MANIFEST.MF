@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-Description: This is the com.dot:wstscustomerqc plugin for Atla
+ ssian JIRA.
+Bundle-SymbolicName: com.dot.wstscustomerqc
+Bnd-LastModified: 1724582552642
+Bundle-ManifestVersion: 2
+Bundle-DocURL: http://www.example.com/
+Bundle-Vendor: Example Company
+Import-Package: org.eclipse.gemini.blueprint.context;resolution:=optio
+ nal,org.eclipse.gemini.blueprint.service.exporter;resolution:=optiona
+ l,org.eclipse.gemini.blueprint.service.exporter.support;resolution:=o
+ ptional,org.eclipse.gemini.blueprint.service.importer.support;resolut
+ ion:=optional,com.atlassian.annotations.nonnull,com.atlassian.jira.is
+ sue,com.atlassian.jira.issue.status,com.atlassian.jira.plugin.webfrag
+ ment.conditions,com.atlassian.jira.plugin.webfragment.model,com.atlas
+ sian.jira.project,com.atlassian.jira.user,com.atlassian.jira.web.acti
+ on,com.atlassian.plugin,com.atlassian.plugin.module,com.atlassian.plu
+ gin.osgi.external,com.atlassian.sal.api,com.dot.wstscustomerqc.api;ve
+ rsion="[1.0,2)",javax.annotation,javax.servlet.http,org.osgi.framewor
+ k,org.slf4j,org.springframework.beans,org.springframework.beans.facto
+ ry,org.springframework.beans.factory.config,org.springframework.cglib
+ .core,org.springframework.cglib.proxy,org.springframework.cglib.refle
+ ct,org.springframework.context,org.springframework.context.annotation
+ ,org.springframework.core.type
+Atlassian-Plugin-Key: com.dot.wstscustomerqc
+Tool: Bnd-6.3.1.202206071316
+Spring-Context: *
+Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: com.dot.wstscustomerqc.api;version="1.0.0"
+Bundle-Name: wstscustomerqc
+Bundle-Version: 1.0.0.SNAPSHOT
+Atlassian-Build-Date: 2024-08-25T03:42:31-0700
+Build-Jdk-Spec: 1.8
+Created-By: Apache Maven Bundle Plugin 5.1.9
+

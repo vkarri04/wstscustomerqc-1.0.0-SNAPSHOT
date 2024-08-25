@@ -1,0 +1,26 @@
+$webResourceManager.requireResourcesForContext("com.dot.wstscustomerqc:approve-reject-resources")
+
+
+<div id="reject-dialog" class="aui-dialog2 aui-dialog2-medium" role="dialog">
+    <header class="aui-dialog2-header">
+        <h2 class="aui-dialog2-header-main">Reject Request</h2>
+    </header>
+    <div class="aui-dialog2-content">
+        <form action="/secure/RejectRequest.jspa" method="post" enctype="multipart/form-data">
+            <div class="field-group">
+                <label for="reject-comment">Comment</label>
+                <textarea id="reject-comment" name="comment" class="textarea"></textarea>
+            </div>
+            <div class="field-group">
+                <label for="reject-attachment">Attachment</label>
+                <input type="file" id="reject-attachment" name="attachment"/>
+            </div>
+        </form>
+    </div>
+    <footer class="aui-dialog2-footer">
+        <div class="aui-dialog2-footer-actions">
+            <button id="reject-submit" class="aui-button aui-button-primary">Reject</button>
+            <button id="reject-cancel" class="aui-button aui-button-link">Cancel</button>
+        </div>
+    </footer>
+</div>
